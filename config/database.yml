@@ -1,0 +1,5 @@
+test:
+  adapter: mysql
+  database: doctor_client_portal
+  username: root
+  encoding: utf8

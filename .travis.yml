@@ -10,7 +10,7 @@ php:
 # Commands to be run before your environment runs.
 before_script:
   #- cp .env.travis .env
-  #- mysql -e 'create database doctor_client_portal;'
+  - mysql -e "create database doctor_client_portal;"
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
   - php artisan key:generate
