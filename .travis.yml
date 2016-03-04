@@ -7,6 +7,9 @@ php:
   - 5.6
   - hhvm
 
+services:
+  - mysql
+  
 # Commands to be run before your environment runs.
 before_script:
   #- cp .env.travis .env
